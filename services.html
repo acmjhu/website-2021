@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services</title>
+  <meta name="description" content="This is the Johns Hopkins University Chapter of the Association for Computing Machinery.">
+  <link rel="stylesheet" href="/assets/all.css" type="text/css" media="screen">
+</head>
+<body>
+  <div id="wrapper">
+    <header class="navigation" role="banner">
+      <div class="navigation-wrapper">
+        <a href="/" class="logo"><div>JHU ACM</div></a>
+        <label class="navigation-menu-button" for="navigation-checkbox">MENU</label>
+        <input type="checkbox" id="navigation-checkbox" name="navigation-checkbox" class="navigation-checkbox">
+        <nav role="navigation">
+          <ul class="navigation-menu">
+            <li class="nav-link">
+              <a href="/acknowledgements.html">Acknowledgements</a>
+            </li>
+            <li class="nav-link">
+              <a href="/join.html">Join</a>
+            </li>
+            <li class="nav-link">
+              <a href="/services.html">Services</a>
+            </li>
+            <li class="nav-link more">
+              <a href="#">About</a>
+              <ul class="submenu">
+                <li class="nav-link">
+                  <a href="/about/bylaws.html">Bylaws</a>
+                </li>
+                <li class="nav-link">
+                  <a href="/about/contact.html">Contact Us</a>
+                </li>
+                <li class="nav-link">
+                  <a href="/about/history.html">History</a>
+                </li>
+                <li class="nav-link">
+                  <a href="/about/office.html">Office</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-link more">
+              <a href="#">More</a>
+              <ul class="submenu">
+                <li class="nav-link">
+                  <a href="https://webchat.freenode.net/?channels=jhuacm&amp;nick=jhuacm_...">#jhuacm
+                  IRC</a>
+                </li>
+                <li class="nav-link">
+                  <a href="https://www.cs.jhu.edu/mailman/listinfo/acm-announce">Mailing List</a>
+                </li>
+                <li class="nav-link">
+                  <a href="https://web.archive.org/web/20170329165245/https://www.acm.jhu.edu/~acm-museum/">Computer Museum</a>
+                </li>
+                <li class="nav-link">
+                  <a href="https://www.acm.org/">International ACM</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="content">
+      <h1>Services</h1>
+      <p>All of our services are available free of charge to members and any interested
+      JHU-affiliated groups. If you are a Hopkins student who is not an ACM member, but are
+      interested in using one or more of the services described below, feel free to contact us
+      anyway.</p>
+      <h1 id="disclaimer">Disclaimer</h1>
+      <p>Our services are student run, and as a result we cannot guarantee 100% reliability for any
+      of the systems discussed below. That being said, we do our best, and we’ve done our best to
+      engineer the systems with a certain amount of redundancy wherever possible.</p>
+      <p>(If you are a user of our systems and would like to help us make things <em>more</em>
+      reliable, we are always looking for more volunteers to help maintain them).</p>
+      <p>Also, please note that it is your responsiblity to abide by JHU computer usage policies
+      when using our systems.</p>
+      <h1 id="services">Services</h1>
+      <h2 id="email">Email</h2>
+      <h3 id="your-acm-email-address">Your ACM Email Address</h3>
+      <p>We offer all of our members username@acm.jhu.edu email addresses. When we create your
+      account, we’ll set up forwarding from this address to an email of your choice, but if you
+      want to send email from this account you can do that from mail.acm.jhu.edu or by configuring
+      your email client to point at imap.acm.jhu.edu:143 and smtp.acm.jhu.edu:587.</p>
+      <h3 id="mailing-lists">Mailing Lists</h3>
+      <p>We also offer mailing lists to all Hopkins groups (and members, as needed). We use
+      mailman, one of the most common pieces of traditional list management software, as an
+      alternative to the JHU IT provided mailing lists.</p>
+      <h2 id="storage-and-hosting">Storage and Hosting</h2>
+      <h3 id="file-storage">File Storage</h3>
+      <p>All of our members are provided 20 GB of backed up storage and 1 TB of “scratch” space
+      (that we don’t make any promises to keep backed up) in our OpenAFS cell. AFS is a distributed
+      filesystem, meaning that if you install an OpenAFS client on your own computer, you will be
+      able to access your files from anywhere in the world– not just our own systems.</p>
+      <p>Student groups are given 40 GB of storage space, as well as a 1 TB scratch volume.</p>
+      <p>AFS has a robust permissions and group architecture; members may create their own groups
+      and control access to their files.</p>
+      <h3 id="web-hosting">Web Hosting</h3>
+      <p>As part of the provided storage, we allow members and groups web hosting. If you put files
+      in <code class="highlighter-rouge">/afs/acm.jhu.edu/user/name/acmsys/public_html</code> (or
+      just <code class="highlighter-rouge">/afs/acm.jhu.edu/group/name/public_html/</code> for a
+      group), they will show up on the internet at <code class=
+      "highlighter-rouge">https://www.acm.jhu.edu/~name/</code>.</p>
+      <p>If you want to run more complicated web services (like CGI scripts), talk to us and we can
+      make that happen too.</p>
+      <h2 id="desktops-and-shell-servers">Desktops and Shell Servers</h2>
+      <p>We run a number of Linux workstations in the office for our members to use. (Your home
+      directories on these machines is the 20 GB AFS volume mentioned above). We tend to be very
+      flexible when it comes to installing new software on those machines, so if they are missing
+      some software that you really need, just ask!</p>
+      <p>At least one of them (at the moment, this is eridani) also dual-boots Windows 7 as
+      well.</p>
+      <p>Members can also SSH remotely into the desktops and shell servers; The recommended machine
+      to SSH remotely into is currently <code class="highlighter-rouge">acm.jhu.edu</code>.</p>
+      <h2 id="mirroring">Mirroring</h2>
+      <p>We provide mirrors of a number of open-source projects. For example, we mirror the package
+      repositories of a number of major Linux distributions such as Ubuntu, Debian, Arch, and
+      Fedora.</p>
+      <h2 id="compute-and-virtualization">Compute and Virtualization</h2>
+      <h3 id="openstack">Openstack</h3>
+      <p>Members (upon request) and groups can log into our Openstack instance and create virtual
+      machines! Thanks to a lot of donated hardware, we’re running a number of compute nodes in our
+      server room that Openstack will allow you to schedule virtual machines on. By default, you
+      are limited to ten VMs running in the cluster, but if you really want more, just ask.</p>
+      <p>All members are given a single public IP address (reachable from the outside world) that
+      they can point at a virtual machine.</p>
+      <h3 id="sandstorm">Sandstorm</h3>
+      <p>We also run a Sandstorm instance that our members can log into. Sandstorm is a “one-click
+      installer for web applications”, and provides many packaged web apps that users can install,
+      run, and then share with others. So if there’s some web application that you really want to
+      use, Sandstorm provides a great (and secure) way to set it up without having to delve into
+      the somewhat more complicated world of setting up your own virtual machine.</p>
+      <p>As an example, take a look at this game of BrowserQuest, running on our Sandstorm
+      instance.</p>
+      <h2 id="cloud-hosted-services">Cloud-Hosted Services</h2>
+      <p>We run a number of other services in our local ACM “cloud”, such as the following.</p>
+      <h3 id="gitlab">Gitlab</h3>
+      <p>We run a Gitlab instance for our members. We host git repositories there for all the
+      various code and projects the ACM has worked on, and also allow members to create both public
+      and private repositories for their own projects.</p>
+      <p>We also run Gitlab CI (very similar to Travis CI, if you’re familiar with that) that will
+      let you schedule builds and run tests for your projects.</p>
+      <h3 id="jupyter">Jupyter</h3>
+      <p>You may also know Jupyter as “iPython”. Jupyter is a web application designed for
+      scientific computing that lets users run code and make plots in their web browser using a
+      variety of languages designed for scientific computing and data processing (such as Python,
+      R, Octave, and so on).</p>
+      <p>The ACM runs a Jupyter instance for its members.</p>
+      <h3 id="wiki">Wiki</h3>
+      <p>We run a MediaWiki instance that all members are allowed to edit, if you’d like to
+      contribute documentation, quotes, miscellaneous facts about the ACM, or random other
+      information.</p>
+      <h3 id="quassel-and-irc">Quassel and IRC</h3>
+      <p>We have an <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> channel,
+      #jhuacm, on the freenode.net network. There’s a link to connect in the sidebar, but you can
+      also point your IRC client at irc://chat.freenode.net and join the channel #jhuacm.</p>
+      <p>To allow members to persist their IRC connections when idling, we run a <a href=
+      "https://quassel-irc.org/">Quassel</a> instance. Quassel is a distributed IRC client; there
+      is a “core” (running inside our cluster) keeps your connection to the remote IRC server alive
+      that the various graphical clients connect to. In addition to the desktop IRC client, there’s
+      also a mobile client (for both iOS and Android) and a web application.</p>
+      <p>At the moment, quassel accounts are available on request; they do not currently get
+      auto-created.</p>
+      <h2 id="gaming">Gaming</h2>
+      <p>We also (as the choice of BrowserQuest as an example for Sandstorm might suggest) tend to
+      like to play video games in our “free time”.</p>
+      <p>The ACM runs both a Minecraft and Minetest server in the cluster; if you’re interested in
+      this, or in us running other game servers, feel free to ask on #jhuacm IRC or drop by the
+      office and ask someone in person.</p>
+      <h1 id="full-documentation">Full Documentation</h1>
+      <p>Full documentation on these services is available on our wiki (linked on the sidebar).</p>
+      <p>If you have any questions not answered by this page or the documentation, please send us
+      an email at admins AT acm.jhu.edu, hop on IRC (#jhuacm on chat.freenode.net as mentioned
+      above), or come bother us in person.</p>
+    </div>
+    <footer>
+      &copy; JHU ACM 2017
+    </footer>
+    <div id="footer-spacer">
+      &copy; JHU ACM 2017
+    </div>
+  </div>
+</body>
+</html>
